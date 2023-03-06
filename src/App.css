@@ -1,0 +1,22 @@
+.wrapper {
+  max-width: 1024px;
+  margin-inline: auto;
+}
+
+.header {
+  background-color: white;
+  padding-inline: 30px;
+  border-bottom: 2px solid red;
+  height: 90px;
+}
+
+.header__title {
+  margin: 0;
+}
+
+.header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
